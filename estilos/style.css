@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root{
+    --fonte-titulo: 'Passion One', arial, sans-serif;
+
+    --fonte-padrão: 'sriracha' , sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+  
+    
+}
+
+body , html{
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top:50px ;
+  
+}
+
+header > h1{
+    font-family: var(--fonte-titulo);
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+header > p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    
+    
+}
+header >p{
+    padding-bottom: 50px;
+    font-family: var(--fonte-titulo);
+}
+       
+header a:hover {
+text-decoration: underline;
+
+}
+
+.imagen{
+    background-color: rgb(110, 110, 110);
+    color: white;
+   
+
+}
+.imagen > p{
+    background-color: rgba(0, 0, 0, 0.356);
+    display: inline-block;
+    padding: 10px;
+
+}
+   #i1{
+    background-image: url(../pacote-d012/imagens/background001.jpg);    
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+   #i2{
+    background-image: url(../pacote-d012/imagens/background002.jpg);    
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+   
+
+
+article{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 3em;
+    padding-left: 30px;
+    font-family: var(--fonte-padrão);
+    font-size: 3.5vw
+}
+    footer{
+        background-color: black;
+        font-family: var(--fonte-titulo);
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-variant: small-caps;
+        font-size: 2vw;
+    }
+    footer a {
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    footer > p{
+        font-weight: lighter;
+    }
+    footer > a::after{
+        content: '\1f517';
+    } 
